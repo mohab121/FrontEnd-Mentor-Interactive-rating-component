@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: hsl(216, 12%, 8%) !important;
+    font-family: 'Overpass';
+}
+
+main{
+    width: 350px;
+    height: 350px;
+    background-color: hsl(213, 19%, 18%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5%;
+    padding: 2%;
+}
+
+.star{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star img{
+    width: 15px;
+    height: 15px;
+}
+
+.rating_state h1{color: white; font-weight: 700; font-size: 1.6rem;}
+p{
+    color: hsl(217, 12%, 63%); 
+    font-weight: 400; 
+    font-size: .8rem;
+    line-height: 1.5;
+    letter-spacing: .5px;
+}
+
+.check{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-secondary{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(216, 12%, 54%);
+    border: none;
+    
+}
+ 
+.btn-secondary:hover{background-color: hsl(25, 97%, 53%) !important;}
+.btn-secondary-change{background-color: hsl(217, 12%, 63%); color: black;}
+
+.btn-primary{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    width: 100%;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+main .thank_state{display:none;}
+
+.thank_state{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 3%;
+}
+
+.thank_state img{
+    width: 150px;
+    height: 100px;
+}
+
+.select{
+    font-weight: 400;
+    font-size: .8rem;
+    border-radius: 2rem;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(216, 12%, 8%);
+    text-align: center;
+    width: 150px;
+    padding: .2rem;
+}
+
+.thank_state h2{
+        color: white;
+        font-weight: 700;
+        font-size: 1.6rem;
+        text-align: center;    
+}
+
+footer{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.attribution { font-size: 11px; text-align: center; color: hsl(217, 12%, 63%); }
+.attribution a { color: hsl(228, 45%, 44%); }
