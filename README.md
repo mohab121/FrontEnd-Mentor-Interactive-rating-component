@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/mohab121/FrontEnd-mentor-nft-preview-card)
-- Live Site URL: [Add live site URL here](https://mohab121.github.io/FrontEnd-mentor-nft-preview-card/)
+- Solution URL: [Add solution URL here](https://github.com/mohab121/FrontEnd-Mentor-Interactive-rating-component)
+- Live Site URL: [Add live site URL here](https://mohab121.github.io/FrontEnd-Mentor-Interactive-rating-component/)
 
 ## My process
 
